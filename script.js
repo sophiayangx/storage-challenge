@@ -1,5 +1,5 @@
-var input = $("#not-a-real-id")
-console.log(input)
+var input = $("#value-input")
+
 
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
@@ -8,7 +8,7 @@ input.keydown(function(e) {
   }
 })
 
-onNewValue("sophiasVariable", function() {
+onNewValue("sophiasVariable", function(value) {
   $("#value-output").html(valueToSave)
 })
 
