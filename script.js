@@ -9,7 +9,7 @@ input.keydown(function(e) {
 })
 
 onNewValue("sophiasVariable", function(value) {
-  $("#value-output").html(valueToSave)
+  $("#value-output").html(value)
 })
 
 //function storeValue(name, value) {	
