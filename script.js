@@ -4,12 +4,12 @@ console.log(input)
 input.keydown(function(e) {	
   if (e.keyCode == "13") {
     var valueToSave = input.val();
-    storeValue("sophiasVariable", value);
+    storeValue("sophiasVariable", valueToSave);
   }
 })
 
 onNewValue("sophiasVariable", function() {
-  $("#value-output").html(value)
+  $("#value-output").html(valueToSave)
 })
 
 //function storeValue(name, value) {	
